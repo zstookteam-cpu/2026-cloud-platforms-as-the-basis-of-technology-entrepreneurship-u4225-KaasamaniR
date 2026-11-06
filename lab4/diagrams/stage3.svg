@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#333"/></marker></defs>
+<rect width="1100" height="540" fill="#FFFFFF"/>
+<text x="20" y="30" font-size="20" font-weight="bold">Этап 3. Production: ~30 000 MAU, ~150 000 AI-запросов в месяц</text>
+<rect x="200" y="55" width="880" height="470" rx="10" fill="none" stroke="#999" stroke-dasharray="6 4"/>
+<text x="210" y="73" font-size="12" fill="#666">Проект Google Cloud, регион europe-west1</text>
+<line x1="170" y1="233" x2="215" y2="232" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="173" y="224" width="39" height="15" fill="#fff" opacity="0.9"/>
+<text x="192" y="236" font-size="11" text-anchor="middle" fill="#222">HTTPS</text>
+<line x1="385" y1="230" x2="420" y2="230" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="617" y1="185" x2="699" y2="145" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="651" y="156" width="13" height="15" fill="#fff" opacity="0.9"/>
+<text x="658" y="168" font-size="11" text-anchor="middle" fill="#222">/</text>
+<line x1="630" y1="230" x2="680" y2="230" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="639" y="221" width="32" height="15" fill="#fff" opacity="0.9"/>
+<text x="655" y="233" font-size="11" text-anchor="middle" fill="#222">/api</text>
+<line x1="525" y1="185" x2="525" y2="145" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="502" y="156" width="46" height="15" fill="#fff" opacity="0.9"/>
+<text x="525" y="168" font-size="11" text-anchor="middle" fill="#222">/media</text>
+<line x1="702" y1="270" x2="593" y2="335" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="635" y="294" width="26" height="15" fill="#fff" opacity="0.9"/>
+<text x="648" y="306" font-size="11" text-anchor="middle" fill="#222">кэш</text>
+<line x1="777" y1="270" x2="788" y2="335" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="769" y="294" width="26" height="15" fill="#fff" opacity="0.9"/>
+<text x="782" y="306" font-size="11" text-anchor="middle" fill="#222">SQL</text>
+<line x1="860" y1="230" x2="920" y2="230" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="877" y="221" width="26" height="15" fill="#fff" opacity="0.9"/>
+<text x="890" y="233" font-size="11" text-anchor="middle" fill="#222">LLM</text>
+<line x1="606" y1="450" x2="680" y2="423" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="620" y="427" width="46" height="15" fill="#fff" opacity="0.9"/>
+<text x="643" y="439" font-size="11" text-anchor="middle" fill="#222">запись</text>
+<rect x="20" y="200" width="150" height="70" rx="8" fill="#FFFFFF" stroke="#555555" stroke-width="2"/>
+<text x="95.0" y="231" font-size="13" font-weight="bold" text-anchor="middle">Пользователи и</text>
+<text x="95.0" y="247" font-size="11" font-weight="normal" text-anchor="middle">партнёры</text>
+<rect x="215" y="195" width="170" height="70" rx="8" fill="#F8CECC" stroke="#B85450" stroke-width="2"/>
+<text x="300.0" y="226" font-size="13" font-weight="bold" text-anchor="middle">Cloud Armor Standard</text>
+<text x="300.0" y="242" font-size="11" font-weight="normal" text-anchor="middle">WAF, лимиты запросов</text>
+<rect x="420" y="185" width="210" height="90" rx="8" fill="#E1D5E7" stroke="#9673A6" stroke-width="2"/>
+<text x="525.0" y="218" font-size="13" font-weight="bold" text-anchor="middle">Global External</text>
+<text x="525.0" y="234" font-size="11" font-weight="normal" text-anchor="middle">Application LB + CDN</text>
+<text x="525.0" y="250" font-size="11" font-weight="normal" text-anchor="middle">HTTPS, статика из кэша</text>
+<rect x="420" y="75" width="210" height="70" rx="8" fill="#D5E8D4" stroke="#82B366" stroke-width="2"/>
+<text x="525.0" y="106" font-size="13" font-weight="bold" text-anchor="middle">Cloud Storage</text>
+<text x="525.0" y="122" font-size="11" font-weight="normal" text-anchor="middle">медиа (backend bucket)</text>
+<rect x="680" y="75" width="180" height="70" rx="8" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="2"/>
+<text x="770.0" y="106" font-size="13" font-weight="bold" text-anchor="middle">Cloud Run: svadly-web</text>
+<text x="770.0" y="122" font-size="11" font-weight="normal" text-anchor="middle">min 1</text>
+<rect x="680" y="190" width="180" height="80" rx="8" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="2"/>
+<text x="770.0" y="226" font-size="13" font-weight="bold" text-anchor="middle">Cloud Run: svadly-api</text>
+<text x="770.0" y="242" font-size="11" font-weight="normal" text-anchor="middle">min 2, авто до N</text>
+<rect x="920" y="190" width="150" height="80" rx="8" fill="#FFE6CC" stroke="#D79B00" stroke-width="2"/>
+<text x="995.0" y="218" font-size="13" font-weight="bold" text-anchor="middle">Vertex AI</text>
+<text x="995.0" y="234" font-size="11" font-weight="normal" text-anchor="middle">85% 3.5 Flash-Lite</text>
+<text x="995.0" y="250" font-size="11" font-weight="normal" text-anchor="middle">15% 3.8 Flash</text>
+<rect x="420" y="335" width="210" height="80" rx="8" fill="#D5E8D4" stroke="#82B366" stroke-width="2"/>
+<text x="525.0" y="363" font-size="13" font-weight="bold" text-anchor="middle">Memorystore Redis</text>
+<text x="525.0" y="379" font-size="11" font-weight="normal" text-anchor="middle">1 GiB: кэш ответов,</text>
+<text x="525.0" y="395" font-size="11" font-weight="normal" text-anchor="middle">лимиты запросов</text>
+<rect x="680" y="335" width="230" height="90" rx="8" fill="#D5E8D4" stroke="#82B366" stroke-width="2"/>
+<text x="795.0" y="368" font-size="13" font-weight="bold" text-anchor="middle">Cloud SQL PostgreSQL HA</text>
+<text x="795.0" y="384" font-size="11" font-weight="normal" text-anchor="middle">2 vCPU, 8 GiB, 100 GiB</text>
+<text x="795.0" y="400" font-size="11" font-weight="normal" text-anchor="middle">primary + standby</text>
+<rect x="420" y="450" width="210" height="60" rx="8" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="2"/>
+<text x="525.0" y="476" font-size="13" font-weight="bold" text-anchor="middle">Cloud Run Job + Scheduler</text>
+<text x="525.0" y="492" font-size="11" font-weight="normal" text-anchor="middle">импорт каталога</text>
+<rect x="215" y="335" width="170" height="60" rx="8" fill="#F8CECC" stroke="#B85450" stroke-width="2"/>
+<text x="300.0" y="361" font-size="13" font-weight="bold" text-anchor="middle">Secret Manager</text>
+<text x="300.0" y="377" font-size="11" font-weight="normal" text-anchor="middle">ключи API и БД</text>
+<rect x="215" y="450" width="170" height="60" rx="8" fill="#FFF2CC" stroke="#D6B656" stroke-width="2"/>
+<text x="300.0" y="476" font-size="13" font-weight="bold" text-anchor="middle">Logging / Monitoring</text>
+<text x="300.0" y="492" font-size="11" font-weight="normal" text-anchor="middle">алерты</text>
+</svg>

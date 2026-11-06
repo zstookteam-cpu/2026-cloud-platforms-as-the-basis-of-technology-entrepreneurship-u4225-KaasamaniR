@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#333"/></marker></defs>
+<rect width="900" height="500" fill="#FFFFFF"/>
+<text x="20" y="30" font-size="20" font-weight="bold">Этап 1. Начальный (MVP): ~150 MAU, ~600 AI-запросов в месяц</text>
+<rect x="280" y="60" width="580" height="410" rx="10" fill="none" stroke="#999" stroke-dasharray="6 4"/>
+<text x="290" y="78" font-size="12" fill="#666">Проект Google Cloud, регион europe-west1</text>
+<line x1="200" y1="184" x2="300" y2="182" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="230" y="174" width="39" height="15" fill="#fff" opacity="0.9"/>
+<text x="250" y="186" font-size="11" text-anchor="middle" fill="#222">HTTPS</text>
+<line x1="520" y1="160" x2="640" y2="138" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="567" y="140" width="26" height="15" fill="#fff" opacity="0.9"/>
+<text x="580" y="152" font-size="11" text-anchor="middle" fill="#222">SQL</text>
+<line x1="520" y1="197" x2="640" y2="215" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="560" y="197" width="39" height="15" fill="#fff" opacity="0.9"/>
+<text x="580" y="209" font-size="11" text-anchor="middle" fill="#222">файлы</text>
+<line x1="520" y1="230" x2="663" y2="295" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="579" y="254" width="26" height="15" fill="#fff" opacity="0.9"/>
+<text x="592" y="266" font-size="11" text-anchor="middle" fill="#222">LLM</text>
+<line x1="410" y1="230" x2="410" y2="300" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="384" y="256" width="52" height="15" fill="#fff" opacity="0.9"/>
+<text x="410" y="268" font-size="11" text-anchor="middle" fill="#222">секреты</text>
+<line x1="189" y1="300" x2="318" y2="230" stroke="#333" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="240" y="256" width="26" height="15" fill="#fff" opacity="0.9"/>
+<text x="253" y="268" font-size="11" text-anchor="middle" fill="#222">CSV</text>
+<rect x="30" y="150" width="170" height="70" rx="8" fill="#FFFFFF" stroke="#555555" stroke-width="2"/>
+<text x="115.0" y="181" font-size="13" font-weight="bold" text-anchor="middle">Пользователи</text>
+<text x="115.0" y="197" font-size="11" font-weight="normal" text-anchor="middle">(браузер, svadly.ru)</text>
+<rect x="300" y="130" width="220" height="100" rx="8" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="2"/>
+<text x="410.0" y="168" font-size="13" font-weight="bold" text-anchor="middle">Cloud Run: svadly-app</text>
+<text x="410.0" y="184" font-size="11" font-weight="normal" text-anchor="middle">web + API (1 сервис)</text>
+<text x="410.0" y="200" font-size="11" font-weight="normal" text-anchor="middle">1 vCPU, 512 MiB, min 0</text>
+<rect x="640" y="75" width="200" height="90" rx="8" fill="#D5E8D4" stroke="#82B366" stroke-width="2"/>
+<text x="740.0" y="108" font-size="13" font-weight="bold" text-anchor="middle">Cloud SQL PostgreSQL</text>
+<text x="740.0" y="124" font-size="11" font-weight="normal" text-anchor="middle">db-f1-micro, 10 GiB</text>
+<text x="740.0" y="140" font-size="11" font-weight="normal" text-anchor="middle">без HA, бэкапы</text>
+<rect x="640" y="190" width="200" height="80" rx="8" fill="#D5E8D4" stroke="#82B366" stroke-width="2"/>
+<text x="740.0" y="218" font-size="13" font-weight="bold" text-anchor="middle">Cloud Storage</text>
+<text x="740.0" y="234" font-size="11" font-weight="normal" text-anchor="middle">Standard, europe-west1</text>
+<text x="740.0" y="250" font-size="11" font-weight="normal" text-anchor="middle">фото и файлы</text>
+<rect x="640" y="295" width="200" height="70" rx="8" fill="#FFE6CC" stroke="#D79B00" stroke-width="2"/>
+<text x="740.0" y="326" font-size="13" font-weight="bold" text-anchor="middle">Vertex AI</text>
+<text x="740.0" y="342" font-size="11" font-weight="normal" text-anchor="middle">Gemini 3.1 Flash-Lite</text>
+<rect x="300" y="300" width="220" height="70" rx="8" fill="#F8CECC" stroke="#B85450" stroke-width="2"/>
+<text x="410.0" y="331" font-size="13" font-weight="bold" text-anchor="middle">Secret Manager</text>
+<text x="410.0" y="347" font-size="11" font-weight="normal" text-anchor="middle">ключи и пароли БД</text>
+<rect x="640" y="390" width="200" height="60" rx="8" fill="#FFF2CC" stroke="#D6B656" stroke-width="2"/>
+<text x="740.0" y="416" font-size="13" font-weight="bold" text-anchor="middle">Logging / Monitoring</text>
+<text x="740.0" y="432" font-size="11" font-weight="normal" text-anchor="middle">логи всех сервисов</text>
+<rect x="30" y="300" width="170" height="80" rx="8" fill="#F5F5F5" stroke="#666666" stroke-width="2"/>
+<text x="115.0" y="328" font-size="13" font-weight="bold" text-anchor="middle">wedwed.ru</text>
+<text x="115.0" y="344" font-size="11" font-weight="normal" text-anchor="middle">(каталог подрядчиков,</text>
+<text x="115.0" y="360" font-size="11" font-weight="normal" text-anchor="middle">импорт вручную)</text>
+</svg>

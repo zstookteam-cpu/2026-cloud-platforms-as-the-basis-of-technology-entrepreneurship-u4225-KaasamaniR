@@ -6,7 +6,7 @@ Group: U4225
 Author: Kaasamani Roni Bahaaevich
 Lab: Lab1
 Date of create: 03.11.2026
-Date of finished: ДД.ММ.ГГГГ (дата защиты)
+Date of finished: 06.11.2026
 
 # Лабораторная работа №1. Обзор Google Cloud и исследование основных сервисов
 
